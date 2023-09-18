@@ -1,0 +1,63 @@
+.h1{
+    position: absolute;
+    font-family: Tahoma;
+    color: #00FF09;
+    font-size: 10vh;
+    text-align: left;
+    margin: 0;
+    top: 0;
+    left: 1vh;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.h2{
+    position: absolute;
+    font-family: Arial;
+    color: #00FF09;
+    font-size: 5vh;
+    text-align: left;
+    margin: 0px;
+    line-height: 0.8;
+    box-sizing: border-box;
+}
+#h2_1{
+    top: 3vh;
+    left: 35vh;
+}
+.titulo{
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1E2372;
+    box-sizing: border-box;
+}
+#t1{
+    left: 1vh;
+    top: 0;
+}
+.subtitulo{
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1E2372;
+    box-sizing: border-box;
+}
+#st2{
+    left: 1vh;
+    top: 15vh;
+}
+.parrafo{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #666666;
+    text-align: justify;
+    margin-right: 1vh;
+    box-sizing: border-box;
+}
+#p1{
+    left: 1vh;
+    top: 6vh;
+}
