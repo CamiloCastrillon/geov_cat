@@ -1,17 +1,47 @@
+.contenedor{
+    position: relative;
+    max-width: 1400px;
+    min-width: 1150px;
+    margin: auto;
+}
 .cabecera {
     position: relative;
-    background-color: #1E2372;
     width: 100%;
-    min-height: 13%;
-    top: 0px;
-    left: 0px;
-    margin: 0;
+    height: 13vh;
 }
-
 .intro{
     position: relative;
-    background-color: #ACACAC;
     width: 100%;
-    min-height: 500px;
-    margin: 0;
+}
+.intro img {
+    width: 100%; /* La imagen ocupa todo el ancho del div padre */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+.contenedor_intro{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #F7F7F79E;
+}
+#linea_titulo{
+    position: relative;
+    width: 0.5vh;
+    height: 10vh;
+    align-items: center;
+    left: 36vh;
+    top: 2vh;
+    background-color: #00FF09;
+}
+#intro_titulo1{
+    height: 4vh;
+}
+#intro_parrafo{
+    height: 8%;
+    min-height: 8vh;
+}
+#intro_subtitulo1{
+    height: 3vh;
 }
