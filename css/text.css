@@ -1,0 +1,90 @@
+.h1{
+    position: absolute;
+    font-family: Tahoma;
+    color: #1E2372;
+    font-size: 6vh;
+    text-align: left;
+    margin: 0;
+    top: 0;
+    left: 1vh;
+    margin: 0px;
+}
+.h2{
+    position: absolute;
+    font-family: Arial;
+    color: #1E2372;
+    font-size: 3vh;
+    text-align: left;
+    margin: 0px;
+    line-height: 0.9;
+    display: inline-flex;
+}
+.titulo{
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4vh;
+    color: #1E2372;
+    margin: 20px;
+    text-align: center;
+}
+.subtitulo{
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #1E2372;
+    margin: 5px;
+    top: 0;
+    left: 0;
+}
+.parrafo{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 2vh;
+    text-align: justify;
+    margin: 20px;
+}
+.boton_titulo{
+    position: absolute;
+    font-family: Helvetica;
+    margin: 0px;
+    font-size: 2.5vh;
+    font-weight: 700;
+    color: #1E2372;
+}
+.desc_boton{
+    position: absolute;
+    font-family: Helvetica;
+    top: 1vh;
+    margin: 0px;
+    font-size: 2vh;
+    font-weight: 700;
+    color: white;
+}
+#h2_1{
+    top: 1.2vh;
+    left: 23vh;
+}
+#t_geoportal{
+    color: #1E2372;
+}
+#t_mapas{
+    color:#054400;
+}
+#t_geos{
+    color:#611200;
+}
+#t_meta{
+    color: #FF4141;
+}
+#t_cont{
+    color: #00FF09;
+    padding: 10px;
+}
+#p_cont{
+    color: white;
+    top: 5px;
+    padding: 40px;
+    line-height: 1.5;
+}

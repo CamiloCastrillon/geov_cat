@@ -1,0 +1,42 @@
+.geoportal{
+    position: absolute;
+    width: 20vh;
+    height: 25vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+    object-fit: cover;
+}
+.geoportal img{
+    position: absolute;
+    top: 4vh;
+    width: 10vh;
+    height: 10vh;
+}
+#geovisor{
+    top: 8vh;
+    left: 2.5%;
+    margin-left: 10px;
+    background-color: #C5CAFF;
+    border: 3px solid #1E2372;
+}
+#mapas{
+    top: 8vh;
+    left: 27.5%;
+    margin-left: 10px;
+    background-color: #DDFFDC;
+    border: 3px solid #054400;
+}
+#geos{
+    top: 8vh;
+    left: 52.5%;
+    background-color: #FFEFE4;
+    border: 3px solid #611200;
+}
+#meta{
+    top: 8vh;
+    left: 77.5%;
+    background-color: #FFE4E4;
+    border: 3px solid #FF4141;
+}
